@@ -3,11 +3,7 @@ function printMessage(msg){
 	div.innerHTML = msg;
 	document.getElementById('messages').appendChild(div);
 }
-/*
-function clearMessages(){
-	document.getElementById('messages').innerHTML = '';
-}
-*/
+
 function getMoveName(argMoveId){
     if(argMoveId == 1){
       return 'kamień';
